@@ -1,0 +1,17 @@
+{
+    "button": {
+        "about": "Über",
+        "back": "Zurück",
+        "go": "Los",
+        "home": "Home",
+        "toggle_dark": "Farbmodus wechseln",
+        "toggle_langs": "Sprache wechseln"
+    },
+    "intro": {
+        "desc": "Vite Starter Vorlage",
+        "dynamic-route": "Demo dynamischer Routen",
+        "hi": "Hallo, {name}!",
+        "whats-your-name": "Wie ist dein Name?"
+    },
+    "not-found": "Not found"
+}

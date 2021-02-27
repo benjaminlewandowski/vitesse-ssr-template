@@ -9,7 +9,6 @@ import Markdown from 'vite-plugin-md'
 import WindiCSS from 'vite-plugin-windicss'
 import { VitePWA } from 'vite-plugin-pwa'
 import VueI18n from '@intlify/vite-plugin-vue-i18n'
-import Prism from 'markdown-it-prism'
 import viteSSR from 'vite-ssr/plugin'
 import getPageProps from './serverless/api/get-page-props'
 
@@ -45,10 +44,6 @@ export default defineConfig({
     Markdown({
       wrapperClasses: 'prose prose-sm m-auto text-left',
       headEnabled: false, // This relies on useHead
-      markdownItSetup(md) {
-        // https://prismjs.com/
-        md.use(Prism)
-      },
     }),
 
     // https://github.com/antfu/vite-plugin-components
